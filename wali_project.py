@@ -69,7 +69,7 @@ if question == "multiply":
     fifth_num = int(input())
     while fifth_num >= 500:
         print("the number is too high. what is your first number?")
-
+#newwwww changessssss
     print("what is your second number?")
     sixth_num = int(input())
     while sixth_num >= 500:
