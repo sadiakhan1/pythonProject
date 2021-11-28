@@ -1,16 +1,6 @@
 print("What is your operation: add, subtract, multiply, divide")
 question = input() #input
 
-# ADDING
-# Both numbers cannot be over 200
-
-# SUBTRACT
-# Both numbers cannot be less than 10
-
-# MULTIPLY
-# Both numbers cannot be greater than 500
-
-
 #functions
 def add(int1, int2):
     sum = int1 + int2
@@ -69,7 +59,7 @@ if question == "multiply":
     fifth_num = int(input())
     while fifth_num >= 500:
         print("the number is too high. what is your first number?")
-#newwwww changessssss
+
     print("what is your second number?")
     sixth_num = int(input())
     while sixth_num >= 500:
@@ -82,5 +72,10 @@ if question == "multiply":
 if question == "divide":
     print("what is your first number?")
     sev_num = int(input())
+
+    print("what is your second number?")
+    eig_num = int(input())
+
+    divide(sev_num, eig_num)
 
 
