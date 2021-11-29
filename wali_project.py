@@ -68,7 +68,7 @@ if question == "multiply":
 
     multiply(fifth_num, sixth_num)
 
-#For dividing sev_num and eig_num
+#for dividing sev_num and eig_num
 if question == "divide":
     print("what is your first number?")
     sev_num = int(input())
