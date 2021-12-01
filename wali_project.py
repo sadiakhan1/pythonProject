@@ -19,7 +19,7 @@ def divide(int1, int2):
     print("the quotient is " + str(quotient))
 
 
-# For Adding one_num and two_num
+#for Adding one_num and two_num
 if question == "add": #if statement
     print("what is your first number")
     one_num = int(input())
@@ -36,8 +36,7 @@ if question == "add": #if statement
 
     add(one_num, sec_num)
 
-
-#For Subtracting third_num and fourth_num
+#for Subtracting third_num and fourth_num
 if question == "subtract":
     print("what is your first number?")
     third_num = int(input())
@@ -53,7 +52,7 @@ if question == "subtract":
 
     subtract(third_num, fourth_num)
 
-#For multiplication fifth_num and sixth_num
+#for multiplication fifth_num and sixth_num
 if question == "multiply":
     print("what if your first number?")
     fifth_num = int(input())
